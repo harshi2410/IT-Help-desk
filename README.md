@@ -1,18 +1,20 @@
-# Salesforce DX Project: Next Steps
+🛠️ Salesforce Help Desk – Admin Project
+A simple IT Help Desk system built entirely using Salesforce Admin tools (no code).
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+What I Built
+Custom Object: Ticket__c
+Fields: Subject, Description, Priority (High / Medium / Low), Status (New / In Progress / Resolved / Closed), Assigned To (lookup to User)
+Page Layouts: Clean layout for creating and viewing tickets
+Validation Rule: Prevents closing a ticket without filling in the resolution notes
+Record Types (optional): e.g., "Hardware", "Software", "Access Request"
+List Views: “My Open Tickets”, “High Priority Tickets”
+Reports & Dashboard:
+Report: Open tickets by priority
+Dashboard: Shows total open tickets and status breakdown
+Permission Set: Help_Desk_Agent – gives agents access to manage tickets
+All configuration done declaratively in Setup using standard Salesforce Admin features, can be expanded anytime as practiced many other small projects as well.
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+<img width="1650" height="567" alt="image" src="https://github.com/user-attachments/assets/d7f7265e-ec24-41ba-afb5-c7ff31fd9c23" />
+<img width="794" height="426" alt="Screenshot 2026-01-15 002326" src="https://github.com/user-attachments/assets/fc43c7a8-6390-432e-a238-bd03db9fb1c6" />
+<img width="435" height="569" alt="Screenshot 2026-01-14 231822" src="https://github.com/user-attachments/assets/e32d21d1-5af5-4ff4-b012-0de0bd16eea7" />
+<img width="933" height="928" alt="Screenshot 2026-01-14 231800" src="https://github.com/user-attachments/assets/09ca83bb-0ad8-4f89-a8bf-b228cc3b7a8a" />
